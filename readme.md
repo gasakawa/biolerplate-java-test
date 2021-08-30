@@ -26,6 +26,7 @@ Desenvolver uma API para um sistema para controle de finanzas pessoais:
   | Transactions | Tipo |
   |-|-|
   | transaction_id | integer |
+  | category_id | integer |
   | account_id | integer |
   | value | money |
   | created_at | date |
