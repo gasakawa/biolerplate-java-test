@@ -15,6 +15,9 @@ public class Transaction {
 
     @Column(nullable = false)
     private Integer account_id;
+    
+    @Column(nullable = false)
+    private Integer category_id;
 
     private Double value;
 
